@@ -1,0 +1,77 @@
+
+.titulo{
+    background-color: #24aaf3;
+    width: 95%;
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    margin: 10px;
+    padding: opx;
+    text-align: center;
+    font-style: oblique;
+}
+
+body{
+    background-color:#54e0f6;
+    width: 99%;
+    height: 100%;
+    background-image: url(imagenes/fondo.jpg);
+}
+
+
+#header{
+    width: 50%;
+    margin:none;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    width: 60vw;
+    text-align: left;
+}
+
+ul,ol{
+    list-style:circle;
+}
+
+.nav li a{
+    background-color: #8bcaf0;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: #434343;
+}
+
+.nav > li {
+    float: left;  
+}
+
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+
+.contenedor{
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    width: 15%;
+    height: 30%;
+    margin: 40px;
+    padding: 10px;
+}
